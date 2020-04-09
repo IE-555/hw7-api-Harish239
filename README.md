@@ -166,7 +166,7 @@ The output from this code is shown below:
 ---
 
 ## Suggestions
-Weather data can be added to understand how the weather influences different contributing factors to the accidents. It can also be used to understand the severity of accidents with respect to different weather conditions.
+Weather data can be added to understand how the weather influences different contributing factors of the accidents. It can also be used to understand the severity of accidents with respect to different weather conditions.
 
 GMAPS Visualization Modification:
 Maps of different type can be set using a parameter```map_type=Hybrid/Satellite``` in ```gmaps.figure``` . Markers can be set to the map using the following code ```gmaps.marker_layer```

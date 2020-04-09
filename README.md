@@ -1,4 +1,5 @@
-# Visualization of New York City Motor Vehicle Collisions Data 
+
+- *pip install sodapy*# Visualization of New York City Motor Vehicle Collisions Data 
 
 Authors: **Arvind Ram Karthikeyan**, **Harish Kannan Venkataramanan**, **Aravindh Siddharth Prabaharan** and **Praveen Mohan**
 
@@ -12,6 +13,7 @@ Authors: **Arvind Ram Karthikeyan**, **Harish Kannan Venkataramanan**, **Aravind
 ---
 
 ## Sources
+- *pip install sodapy*
 - The source code came from [NYC Open Data](https://opendata.cityofnewyork.us/)
 - The code retrieves data from [API source](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95)
 - The link to create a account in [Socrata](https://dev.socrata.com/foundry/data.cityofnewyork.us/h9gi-nx95)
@@ -30,8 +32,8 @@ import seaborn as sns
 import gmaps
 from ipywidgets.embed import embed_minimal_html
 ```
-
 - *Note:The following packages need to be installed using spyder:* 
+- *pip install sodapy*
 - *pip install sodapy*
 - *pip install gmaps (If using Jupyter notebook $ jupyter nbextension enable --py --sys-prefix gmaps)*
 - *pip install ipywidgets.embed*
@@ -48,7 +50,9 @@ results_df = pd.DataFrame.from_records(results)
 - *NOTE 1: The data pulled using API is in json format and it is converted to a data frame named "results_df".*  
 - *NOTE 2: The data may change over time and the results may not be same everytime.*
 ```
+- *pip install sodapy*
 results_df['year'] = pd.DatetimeIndex(results_df['crash_date']).year # year, month, weekday and hour features are extracted from crash_date
+- *pip install sodapy*
 results_df['month'] = pd.DatetimeIndex(results_df['crash_date']).month
 results_df['weekday'] = pd.DatetimeIndex(results_df['crash_date']).weekday
 results_df['hour'] = pd.DatetimeIndex(results_df['crash_time']).hour

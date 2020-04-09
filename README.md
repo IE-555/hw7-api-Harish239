@@ -105,7 +105,7 @@ plt.title("Heatmap of Crash Count in New York City (Monthly vs Weekly)", fontsiz
 plt.savefig('Heatmap1.jpg') # Saving the plot
 ```
 The output from this code is shown below:
-![Image of Plot](https://user-images.githubusercontent.com/60372005/78874029-b9e84700-7a19-11ea-82e3-baf20e457337.jpg)
+![Image of Plot](images/Heatmap1.jpg)
 
 #### Heatmap (Weekly vs Hourly)
 ```
@@ -118,7 +118,7 @@ plt.savefig('Heatmap2.jpg')
 ```
 
 The output from this code is shown below:
-![Image of Plot](https://user-images.githubusercontent.com/60372005/78874030-b9e84700-7a19-11ea-857b-072282638691.jpg)
+![Image of Plot](images/Heatmap2.jpg)
 
 #### GMAPS Heatmap on NYC
 
@@ -139,7 +139,7 @@ embed_minimal_html('Heatmap_layer.html', views=[fig]) #heatmap file is exported 
 ```
 
 The output from this code is shown below:
-![Image of Plot](https://user-images.githubusercontent.com/60372005/78876631-a0e19500-7a1d-11ea-980e-73c4185a1873.png)
+![Image of Plot](images/map.png)
 
 ---
 

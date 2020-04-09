@@ -7,9 +7,9 @@ import gmaps
 from ipywidgets.embed import embed_minimal_html
 
 #client = Socrata("data.cityofnewyork.us", None)
-username ='hvenkata@buffalo.edu'
-password = '239529Ha@'
-MyAppToken = 'ghLXcYsug6itEMVfSwTfnwg1X'
+username ='Enter User name'
+password = 'Enter Password'
+MyAppToken = 'Enter Apptoken'
 client = Socrata('data.cityofnewyork.us', MyAppToken, username=username,password=password)
 
 results = client.get("h9gi-nx95", limit=100000)
@@ -112,7 +112,7 @@ locations[['latitude','longitude']] = locations[['latitude','longitude']].astype
 #points = new[new['count'] >= 40] #value to change
 #points=points[['latitude','longitude']].astype(float)
 
-gmaps.configure(api_key='AIzaSyBRD7VNYEKo_FnbiNBGFsN5_GTPbE4X17U')
+gmaps.configure(api_key='Enter api Key')
 nyc_coordinates = (40.7128, -74.0060)
 fig = gmaps.figure(center=nyc_coordinates, zoom_level=10.5)#map_type='HYBRID'
 heatmap_layer=gmaps.heatmap_layer(locations)

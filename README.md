@@ -16,7 +16,7 @@ Authors: **Arvind Ram Karthikeyan**, **Harish Kannan Venkataramanan**, **Aravind
 - The code retrieves data from [API source](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95)
 - The link to create a account in [Socrata](https://dev.socrata.com/foundry/data.cityofnewyork.us/h9gi-nx95)
 - The code to create a heatmap using [Seaborn Package](https://dev.socrata.com/foundry/data.cityofnewyork.us/h9gi-nx95)
-- The link to use the [Gmap](https://cloud.google.com/maps-platform/)
+- The link to use [Gmap](https://cloud.google.com/maps-platform/)
 ---
 
 ## Explanation of the Code

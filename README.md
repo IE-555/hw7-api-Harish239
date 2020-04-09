@@ -13,7 +13,6 @@ Authors: **Arvind Ram Karthikeyan**, **Harish Kannan Venkataramanan**, **Aravind
 ---
 
 ## Sources
-- *pip install sodapy*
 - The source code came from [NYC Open Data](https://opendata.cityofnewyork.us/)
 - The code retrieves data from [API source](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95)
 - The link to create a account in [Socrata](https://dev.socrata.com/foundry/data.cityofnewyork.us/h9gi-nx95)

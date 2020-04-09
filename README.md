@@ -153,7 +153,7 @@ The output from this code is shown below:
 
 *3. Type the following command:*
 	```
-	API_NYC_crashdata.py
+	python API_NYC_crashdata.py
 	```
     
 ### Using Spyder/ Jupyter

@@ -1,5 +1,5 @@
 
-- *pip install sodapy*# Visualization of New York City Motor Vehicle Collisions Data 
+# Visualization of New York City Motor Vehicle Collisions Data 
 
 Authors: **Arvind Ram Karthikeyan**, **Harish Kannan Venkataramanan**, **Aravindh Siddharth Prabaharan** and **Praveen Mohan**
 
@@ -33,7 +33,7 @@ import gmaps
 from ipywidgets.embed import embed_minimal_html
 ```
 - *Note:The following packages need to be installed using spyder:* 
-- *pip install sodapy*
+- *pip install seaborn*
 - *pip install sodapy*
 - *pip install gmaps (If using Jupyter notebook $ jupyter nbextension enable --py --sys-prefix gmaps)*
 - *pip install ipywidgets.embed*

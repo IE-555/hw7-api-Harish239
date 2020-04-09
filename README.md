@@ -50,7 +50,6 @@ results_df = pd.DataFrame.from_records(results)
 - *NOTE 2: The data may change over time and the results may not be same everytime.*
 ```
 results_df['year'] = pd.DatetimeIndex(results_df['crash_date']).year # year, month, weekday and hour features are extracted from crash_date
-- *pip install sodapy*
 results_df['month'] = pd.DatetimeIndex(results_df['crash_date']).month
 results_df['weekday'] = pd.DatetimeIndex(results_df['crash_date']).weekday
 results_df['hour'] = pd.DatetimeIndex(results_df['crash_time']).hour

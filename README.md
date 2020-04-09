@@ -6,7 +6,7 @@ Authors: **Arvind Ram Karthikeyan**, **Harish Kannan Venkataramanan**, **Aravind
 
 ## Introduction
 *The data is pulled from NYC Open Data.*
-*The data consists of records for motor vehicle damage worth more than $1000 and casualties.*
+*It consists of records for motor vehicle damage worth more than $1000 and casualties.*
 *The key factors used in this data visualization are contributing factors for the crash, Number of persons injured, Number of persons     killed, crash date, crash time and crash location.*
 
 ---
@@ -16,7 +16,7 @@ Authors: **Arvind Ram Karthikeyan**, **Harish Kannan Venkataramanan**, **Aravind
 - The code retrieves data from [API source](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95)
 - The link to create a account in [Socrata](https://dev.socrata.com/foundry/data.cityofnewyork.us/h9gi-nx95)
 - The code to create a heatmap using [Seaborn Package](https://dev.socrata.com/foundry/data.cityofnewyork.us/h9gi-nx95)
-- The link to use the [Gmaps Link](https://cloud.google.com/maps-platform/)
+- The link to use the [Gmap](https://cloud.google.com/maps-platform/)
 ---
 
 ## Explanation of the Code
@@ -128,7 +128,7 @@ The output from this code is shown below:
 locations=pd.DataFrame(results_df[['latitude','longitude']])
 locations[['latitude','longitude']] = locations[['latitude','longitude']].astype(float) #Latitude and Longitude data are stored as float
 
-gmaps.configure(api_key='AIzaSyBRD7VNYEKo_FnbiNBGFsN5_GTPbE4X17U') #GMAPS API key is inserted
+gmaps.configure(api_key='Key Here') #GMAPS API key is inserted
 nyc_coordinates = (40.7128, -74.0060)
 fig = gmaps.figure(center=nyc_coordinates, zoom_level=10.5) #Map co-ordinates along with zoom level is set
 heatmap_layer=gmaps.heatmap_layer(locations) #heatmap layer is created using latitude,longitude

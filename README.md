@@ -31,7 +31,7 @@ import seaborn as sns
 import gmaps
 from ipywidgets.embed import embed_minimal_html
 ```
-- *Note:The following packages need to be installed using spyder:* 
+- *Note:The following packages need to be installed:* 
 - *pip install seaborn*
 - *pip install sodapy*
 - *pip install gmaps (If using Jupyter notebook $ jupyter nbextension enable --py --sys-prefix gmaps)*
@@ -49,7 +49,6 @@ results_df = pd.DataFrame.from_records(results)
 - *NOTE 1: The data pulled using API is in json format and it is converted to a data frame named "results_df".*  
 - *NOTE 2: The data may change over time and the results may not be same everytime.*
 ```
-- *pip install sodapy*
 results_df['year'] = pd.DatetimeIndex(results_df['crash_date']).year # year, month, weekday and hour features are extracted from crash_date
 - *pip install sodapy*
 results_df['month'] = pd.DatetimeIndex(results_df['crash_date']).month

@@ -92,7 +92,7 @@ plt.show()
 ```
 
 The output from this code is shown below:
-![Image of Plot](https://user-images.githubusercontent.com/60372005/78873955-a210c300-7a19-11ea-8ca7-b60fdc01a116.png)
+![Image of Plot](images/Bar_Pie.png)
 
 #### Heatmap (Monthly vs Weekly)
 
